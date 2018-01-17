@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathButton", "PathButton\PathButton.csproj", "{84C560BA-4F80-4FF4-B50F-3FA43058BFC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorButton", "VectorButton\VectorButton.csproj", "{836D6BFD-5877-486A-9BF8-93816A59EBD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{84C560BA-4F80-4FF4-B50F-3FA43058BFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84C560BA-4F80-4FF4-B50F-3FA43058BFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84C560BA-4F80-4FF4-B50F-3FA43058BFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84C560BA-4F80-4FF4-B50F-3FA43058BFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836D6BFD-5877-486A-9BF8-93816A59EBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836D6BFD-5877-486A-9BF8-93816A59EBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836D6BFD-5877-486A-9BF8-93816A59EBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836D6BFD-5877-486A-9BF8-93816A59EBD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
