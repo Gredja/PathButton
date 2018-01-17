@@ -1,0 +1,27 @@
+﻿<Window x:Class="VectorButton.View.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:viewModel="clr-namespace:VectorButton.ViewModel"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VectorButton"
+       
+        mc:Ignorable="d"
+        Title="MainWindowView" Height="350" Width="525">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="{Binding NewText}" Foreground="Black" FontSize="32"/>
+
+        <Path Grid.Row="1" Fill="#B5B5B5">
+            <Path.Data>
+                <PathGeometry Figures="M19.283 12.073c0-.586-.485-1.071-1.071-1.071s-1.071.485-1.071 1.071v2.143c0 4.134-3.365 7.499-7.499 7.499-4.135 0-7.499-3.365-7.499-7.499v-2.143c0-.586-.486-1.071-1.072-1.071-.586 0-1.071.485-1.071 1.071v2.143c0 4.954 3.749 9.039 8.57 9.574V26H4.285c-.586 0-1.071.485-1.071 1.071s.485 1.072 1.071 1.072h10.713c.586 0 1.071-.486 1.071-1.072 0-.586-.485-1.071-1.071-1.071h-4.285v-2.21c4.821-.535 8.57-4.62 8.57-9.574v-2.143zm-4.285-6.428c0-2.946-2.41-5.356-5.356-5.356-2.946 0-5.357 2.41-5.357 5.356v8.571c0 2.946 2.411 5.356 5.357 5.356s5.356-2.41 5.356-5.356V5.645z" />
+            </Path.Data>
+        </Path>
+
+    </Grid>
+</Window>
